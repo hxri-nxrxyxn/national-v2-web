@@ -1,0 +1,20 @@
+$color-acc: white;
+$nav-height: 10vh;
+
+nav {
+    min-height: $nav-height;
+    width: 100vw;
+    position: fixed;
+    background-color: $color-acc;
+}
+nav.top {
+    top: 0;
+}
+nav.bottom {
+    bottom: 0;
+}
+section {
+    background-color: yellow;
+    margin-top: $nav-height;
+    height: (100vh - 2 * $nav-height);
+}
